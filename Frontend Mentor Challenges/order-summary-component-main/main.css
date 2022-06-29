@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 180vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    position: relative;
+    font-size: 16px;
+}
+
+.container {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    transform: translate(-20%, -40%);
+    max-width: 450px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.content {
+    padding: 40px;
+    text-align: center;
+}
+
+.text-content {
+    padding: 0 10px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: hsl(223, 47%, 23%);
+}
+
+.description {
+    color: hsl(224, 23%, 55%);
+}
+
+.box-plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.box-plan-left {
+    display:flex;
+    align-items: center;
+    color: hsl(224, 23%, 55%);
+    text-align: left;
+}
+
+.box-plan-left div {
+    margin-left: 20px;
+}
+
+.box-plan-left div h5 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.box-plan a {
+    display: flex;
+    font-size: 14px;
+    color:  hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+
+.b1 {
+    display: block;
+    color: hsl(225, 100%, 98%);
+    padding: 13px 0;
+    margin-top: 20px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.b2 {
+    display: block;
+    color: hsl(224, 23%, 55%);
+    padding: 13px 0;
+    margin-top: 20px;
+    background-color: #fff; 
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.box-plan a:hover {
+    text-decoration: none;
+}
+
+.b1:hover {
+    cursor: pointer;
+    background-color: hsl(224, 23%, 55%);
+}
+
+.b2:hover {
+    cursor: pointer;
+}
+
+
+

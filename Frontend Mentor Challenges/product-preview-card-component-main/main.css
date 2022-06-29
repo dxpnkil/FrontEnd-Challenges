@@ -1,0 +1,107 @@
+* { 
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    width: 100%;
+}
+
+.card {
+    min-width: 700px;
+    width: 30%;
+    display: flex;
+    margin : 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.left {
+    width: 50%;
+    background-image: url(images/image-product-desktop.jpg);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    padding: 35px 40px;
+    row-gap: 25px;
+    flex-direction: column;
+}
+
+.item-category {
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 4px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.item-name {
+    font-size: 38px;
+    color: hsl(212, 21%, 14%);
+    font-weight: 700px;
+}
+
+.item-description {
+    font-size: 20px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.price {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 25px;
+}
+
+.price-updated {
+    font-size: 36px;
+    color: hsl(158, 36%, 37%);
+}
+
+.price-previous {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+button {
+    width: 100%;
+    padding: 17px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(228, 12%, 48%);
+}
+
+img {
+    margin-right: 15px;
+}
