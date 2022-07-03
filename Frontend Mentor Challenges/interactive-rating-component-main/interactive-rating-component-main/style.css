@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    position: relative;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    min-height: 100vh;
+}
+
+.container {
+    position: absolute;
+    width: 25%;
+    background-color: hsl(213, 19%, 18%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+.content {
+    padding: 35px;
+}
+
+.icon img {
+    background-color: hsl(213, 14%, 30%);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.active-states h2 {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.active-states p {
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.6;
+}
+
+.bt {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bt button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: hsl(213, 14%, 30%);
+    border: none;
+    color: hsl(217, 12%, 63%);
+}
+
+.bt button:hover {
+    background-color: hsl(216, 12%, 54%);
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+}
+
+.bt button:active {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.active-states .bt1 {
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    font-size: 10px;
+    height: 30px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.active-states .bt1:hover {
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+}
+
+.thankyou-state {
+    text-align: center;
+}
+
+.thankyou-state h4 {
+    margin: 20px auto;
+    height: 30px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: 400;
+    background-color: hsl(213, 14%, 30%);
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+}
+
+.thankyou-state h1 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.thankyou-state p {
+    margin: 15px auto;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.6;
+}
+
+span {
+    margin: 0 3px;
+}
+
+.hide {
+    display: none;
+}
